@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block content %}
+  <p>This is a mini-blog application using a back-end built on Django 2.0 and Django Rest Framework. It illustrates how to create and send JSON Web Token authentication headers with the HTTP requests.</p>
+
+  <app-root>Loading the app...</app-root>
+
+  <script type="text/javascript" src="{% static 'front-end/runtime-es2015.js' %}"></script>
+  <script type="text/javascript" src="{% static 'front-end/polyfills-es2015.js' %}"></script>
+  <script type="text/javascript" src="{% static 'front-end/styles-es2015.js' %}"></script>
+  <script type="text/javascript" src="{% static 'front-end/vendor-es2015.js' %}"></script>
+  <script type="text/javascript" src="{% static 'front-end/main-es2015.js' %}"></script>
+
+{% endblock %}
